@@ -70,7 +70,12 @@ p {
 }
 .footer{
     color: #cccccc;
+    background: #111;
     text-align: center;
+    border-top: 1px solid #ccc;
+    -moz-box-shadow: 0 4em 3em 4em #111;
+    -webkit-box-shadow: 0 4em 3em 4em #111;
+    box-shadow: 0 0 2.5em .1em #555;
 }
 .footer p {
     font-size: 11px;
