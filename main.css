@@ -1,7 +1,4 @@
 @media (min-width: 980px){
-    body{
-	padding-top:60px;
-    }
     .linediv-l{
 	border-right:1px white solid;
     }
@@ -10,16 +7,9 @@
     }
     
 }
-@media (min-width: 480px){
-    body{
-        padding-top:60px;
-    }
-}
+
 /*Landscape phones and down*/
 @media (max-width: 480px){
-    body {
-	padding-top:30px;
-    }
     .copy{
 	padding:2.5% 10%;
     }
@@ -39,7 +29,22 @@ html, body{
 
 body{
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color: rgb(68, 68, 68);
 }
+body a{
+ color:rgb(68, 68, 68);
+}
+
+/* Nav bar*/
+.border{
+    border-top: #ccc solid 1px;
+    border-bottom: #ccc solid 1px;
+    color:#62855c;
+    padding-top:10px;
+}
+
+
+
 
 *, *:before, *:after {
 -webkit-box-sizing: border-box;
@@ -74,9 +79,7 @@ p {
 .video, .thermometer, .order, .social, .statistics{
     text-align: center;
 }
-.statistics h3, .statistics p {
-    color:white;
-}
+
 
 div.wrap{
     min-height: 100%;
@@ -95,17 +98,14 @@ div.wrap{
     padding:2.5% 0%;
 }
 .footer{
-    color: #cccccc;
-    background: #111;
+    color: rgb(255, 255, 255);
+    background: #62855c;
     text-align: center;
-    border-top: 1px solid #ccc;
-    -moz-box-shadow: 0 4em 3em 4em #111;
-    -webkit-box-shadow: 0 4em 3em 4em #111;
-    box-shadow: 0 0 2.5em .1em #555;
+    border-top: 1px solid #62855c;
 }
 .footer p {
     font-size: 11px;
 }
 .footer a{
-    color: #ccccff;
+    color: rgb(68, 68, 68);;
 }
