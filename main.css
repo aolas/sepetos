@@ -36,11 +36,12 @@ body a{
 }
 
 /* Nav bar*/
-.border{
+.logotipas{
     border-top: #ccc solid 1px;
     border-bottom: #ccc solid 1px;
     color:#62855c;
     padding-top:10px;
+    margin-bottom: 20px;
 }
 
 
