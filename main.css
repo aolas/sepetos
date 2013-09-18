@@ -86,8 +86,8 @@ div.wrap{
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -35px;
-    padding: 0 0 35px;
+    margin: -71px auto -35px;
+    padding: 71px 0 35px 0;
 }
 /*Marketing Copy And Footer*/
 .copy{
