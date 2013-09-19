@@ -28,6 +28,7 @@ html, body{
 }
 
 body{
+    border-top: 20px solid #62855c;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     color: rgb(68, 68, 68);
 }
@@ -88,6 +89,7 @@ div.wrap{
     height: 100%;
     margin: -71px auto -35px;
     padding: 71px 0 35px 0;
+    background-color: #f8f8f8;
 }
 /*Marketing Copy And Footer*/
 .copy{
