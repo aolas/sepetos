@@ -1,0 +1,169 @@
+/*
+Theme Name: Twenty Twelve
+Theme URI: http://wordpress.org/themes/twentytwelve
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, gray, white, one-column, two-columns, right-sidebar, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: twentytwelve
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* =Notes
+--------------------------------------------------------------
+This stylesheet uses rem values with a pixel fallback. The rem
+values (and line heights) are calculated using two variables:
+
+$rembase:     14;
+$line-height: 24;
+
+---------- Examples
+
+* Use a pixel value with a rem fallback for font-size, padding, margins, etc.
+	padding: 5px 0;
+	padding: 0.357142857rem 0; (5 / $rembase)
+
+* Set a font-size and then set a line-height based on the font-size
+	font-size: 16px
+	font-size: 1.142857143rem; (16 / $rembase)
+	line-height: 1.5; ($line-height / 16)
+
+---------- Vertical spacing
+
+Vertical spacing between most elements should use 24px or 48px
+to maintain vertical rhythm:
+
+.my-new-div {
+	margin: 24px 0;
+	margin: 1.714285714rem 0; ( 24 / $rembase )
+}
+
+---------- Further reading
+
+http://snook.ca/archives/html_and_css/font-size-with-rem
+http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
+
+
+
+-------------------------------------------------------------- */
+
+
+@media (min-width: 980px){
+    .linediv-l{
+	border-right:1px white solid;
+    }
+    .linediv-r{
+	border-left:1px white solid;
+    }
+    
+}
+
+/*Landscape phones and down*/
+@media (max-width: 480px){
+    .copy{
+	padding:2.5% 10%;
+    }
+    .linediv-l{
+	border-bottom: 1px white solid;
+    }
+    .linediv-r{
+	border-top: 1px white solid;
+    }
+}
+/* All form factors*/
+/*Main body and headings*/
+
+html, body{
+    height:100%;
+}
+
+body{
+    border-top: 20px solid #62855c;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color: rgb(68, 68, 68);
+}
+body a{
+ color:rgb(68, 68, 68);
+}
+
+/* Nav bar*/
+.logotipas{
+    border-top: #ccc solid 1px;
+    border-bottom: #ccc solid 1px;
+    color:#62855c;
+    padding-top:10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+*, *:before, *:after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.heading, .subheading{
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    text-align:center;
+}
+p.lead{
+    padding-top: 1.5%;
+    font-size:24px;
+    line-height:30px;
+}
+p {
+    font-size:18px;
+    line-height:24px;
+}
+/*Video pitch and Action */
+.pitch{
+    padding: 2.5% 0%;
+}
+.order{
+    padding: 2% 0%;
+}
+.actions{
+    background-color: #343434;
+    padding: 3% 0%;
+}
+.video, .thermometer, .order, .social, .statistics{
+    text-align: center;
+}
+
+
+div.wrap{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: -71px auto -35px;
+    padding: 71px 0 35px 0;
+    background-color: #f8f8f8;
+}
+/*Marketing Copy And Footer*/
+.copy{
+    padding-top: 2.5%;
+    padding-bottom:2.5%;
+    text-align: justify;
+}
+.asset{
+    padding:2.5% 0%;
+}
+.footer{
+    color: rgb(255, 255, 255);
+    background: #62855c;
+    text-align: center;
+    border-top: 1px solid #62855c;
+}
+.footer p {
+    font-size: 11px;
+}
+.footer a{
+    color: rgb(68, 68, 68);
+}
