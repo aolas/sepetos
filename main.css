@@ -45,8 +45,14 @@ body a{
     margin-bottom: 20px;
 }
 
+.localnav{
+width: 22.5%;
+clear: left;
+float: left;
+}
 
 
+/* smth */
 
 *, *:before, *:after {
 -webkit-box-sizing: border-box;
@@ -89,7 +95,14 @@ div.wrap{
     height: 100%;
     margin: -71px auto -35px;
     padding: 71px 0 35px 0;
-    background-color: #f8f8f8;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.maincontent{
+    clear: none;
+    margin-left: 22%;
 }
 /*Marketing Copy And Footer*/
 .copy{
