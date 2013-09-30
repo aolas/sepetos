@@ -1,9 +1,20 @@
+@media (min-width: 480px){
+     .maincontent{
+        padding-left:20px;
+	padding-right:20px;
+    }
+
+}
 @media (min-width: 980px){
     .linediv-l{
 	border-right:1px white solid;
     }
     .linediv-r{
 	border-left:1px white solid;
+    }
+    .maincontent{
+	padding-left:30px;
+	padding-right:30px;
     }
     
 }
@@ -19,12 +30,20 @@
     .linediv-r{
 	border-top: 1px white solid;
     }
+    .maincontent{
+        padding-left:5px;
+	padding-right:5px;
+    }
+
 }
 /* All form factors*/
 /*Main body and headings*/
 
 html, body{
     height:100%;
+}
+h3 {
+    color: #527ea3;
 }
 
 body{
@@ -35,6 +54,14 @@ body{
 body a{
  color:rgb(68, 68, 68);
 }
+.clear{
+    clear:both;
+}
+.maincontent{
+    clear: none;
+    margin-left: 22%;
+}
+
 
 /* Nav bar*/
 .logotipas{
@@ -45,10 +72,42 @@ body a{
     margin-bottom: 20px;
 }
 
+
+.navbar-default{
+    background-color:white;
+}
+/*left submenu*/
 .localnav{
-width: 22.5%;
-clear: left;
-float: left;
+    width: 22.5%;
+    clear: left;
+    float: left;
+}
+.localnav ul {
+    clear: left;
+    border-top: 1px solid #e2e2e2;
+}
+.localnav li {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.localnav ul {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
+
+.localnav li {
+    width: 100%;
+}
+.localnav li a
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    text-decoration: none;
+    display: block;
 }
 
 
@@ -66,6 +125,8 @@ box-sizing: border-box;
 }
 p.lead{
     padding-top: 1.5%;
+    float:left;
+    padding-left:30px;
     font-size:24px;
     line-height:30px;
 }
@@ -100,10 +161,7 @@ div.wrap{
     border-left: 1px solid #ccc;
 }
 
-.maincontent{
-    clear: none;
-    margin-left: 22%;
-}
+
 /*Marketing Copy And Footer*/
 .copy{
     padding-top: 2.5%;
