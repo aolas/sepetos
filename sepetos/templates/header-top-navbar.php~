@@ -1,0 +1,28 @@
+
+
+    <header class="navbar navbar-default navbar-static-top" role="banner">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle btn-ttc" data-toggle="collapse" data-target=".nav1">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+	
+      </div>
+      <div class="navbar-collapse collapse nav1">
+	<?php
+        if (has_nav_menu('primary_navigation')) :
+			 wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav navbar-right'));
+        endif;
+	?>
+
+	<form class="navbar-form navbar-left" role="search" action=<?php echo home_url('/'); ?>>
+	  <div class="form-group">
+            <input type="text" class="form-control" value="<?php if (is_search()) { echo get_search_query(); } ?>" placeholder="<?php _e('Search', 'roots'); ?> <?php bloginfo('name'); ?>">
+	  </div>
+	  <button type="submit" class="btn btn-default"><?php _e('Search', 'roots'); ?></button>
+	</form>
+
+      </div><!--/.nav-collapse -->
+</header>
+
