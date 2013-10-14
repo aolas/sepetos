@@ -2,17 +2,11 @@ content-single.php
 <?php while (have_posts()) : the_post(); ?>
 
   <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4><?php the_title(); ?></h4></br>
-      <?php get_template_part('templates/entry-meta'); ?>
-    </div>
+    <div class="panel-header">Panel header</div>
     <div class="panel-body">
-       <?php the_content(); ?>
+      Panel content
     </div>
-    <div class="panel-footer">Panel footer
-      link pages</br>
-       <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p>p></nav>nav>')); ?>
-    </div>
+    <div class="panel-footer">Panel footer</div>
   </div>
 
   <article <?php post_class(); ?>>

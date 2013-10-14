@@ -1,0 +1,512 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ramūnas <ramunas.daukas@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Language: de_DE\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. Text in echo
+#: comments.php:72 comments.php:76
+msgid " (required)"
+msgstr "(privalomas)"
+
+#. Text in echo
+#: inc/roots-options.php:260
+msgid "#fullwidth CSS Classes"
+msgstr "#pilno pločio CSS Klase"
+
+#. Text in echo
+#: inc/roots-options.php:238 inc/roots-options.php:240
+msgid "#main CSS Classes"
+msgstr "#main CSS Klasė"
+
+#. Text in echo
+#: inc/roots-options.php:248 inc/roots-options.php:250
+msgid "#sidebar CSS Classes"
+msgstr "#šoninio skydelio CSS Klasė"
+
+#. Text in function
+#: comments.php:8
+msgid "%1$s"
+msgstr "%1$s"
+
+#. Text in function
+#: inc/roots-activation.php:70
+msgid "%s Theme Activation"
+msgstr "%s Theme įgalinimas"
+
+#. Text in function
+#: inc/roots-options.php:214
+msgid "%s Theme Options"
+msgstr "%s Theme parinktys"
+
+#. Text in function
+#: comments.php:43
+msgid "&larr; Older comments"
+msgstr "&larr; Senesni komentarai"
+
+#. Text in function
+#: loop.php:34
+msgid "&larr; Older posts"
+msgstr "&larr; Senesni įrašai"
+
+#. Text in function
+#: comments.php:9
+msgid "(Edit)"
+msgstr "(redaguoti)"
+
+#. Text in function
+#: inc/roots-options.php:1
+msgid "1140"
+msgstr "1140"
+
+#. Text in function
+#: inc/roots-options.php:1
+msgid "960gs (12 cols)"
+msgstr "960gs (12 stulpelių)"
+
+#. Text in function
+#: inc/roots-options.php:1
+msgid "960gs (16 cols)"
+msgstr "960gs (16 stulpelių)"
+
+#. Text in function
+#: inc/roots-options.php:1
+msgid "960gs (24 cols)"
+msgstr "960gs (24 stulpelių)"
+
+#. Text in function
+#: comments.php:7
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#. Text in function
+#: inc/roots-options.php:1
+msgid "Adapt.js"
+msgstr "Adapt.js"
+
+#. Text in function
+#: inc/roots-activation.php:145
+msgid "Add all current published pages to the Primary Navigation"
+msgstr "Pridėti visus publikuotus puslapius į pirminį navigacijos menių"
+
+#. Text in echo
+#: inc/roots-activation.php:137 inc/roots-activation.php:139
+msgid "Add pages to menu?"
+msgstr "Pridėti puslapį į menių"
+
+#. Text in function
+#: archive.php:8
+msgid "Author Archives: %s"
+msgstr "Autoriaus archyvas: %s"
+
+#. Text in function
+#: inc/roots-options.php:1
+msgid "Blueprint CSS"
+msgstr "Blueprint CSS"
+
+#. Text in function
+#: inc/roots-options.php:1
+msgid "Bootstrap"
+msgstr "Bootstrap"
+
+#. Text in echo
+#: inc/roots-options.php:282
+msgid "Bootstrap Javascript Packages"
+msgstr "Bootstrap Javascript Packages"
+
+#. Text in function
+#: inc/roots-options.php:1
+msgid "Bootstrap w/ Less"
+msgstr "Bootstrap su Less"
+
+#: templates/entry-meta.php:2
+msgid "By"
+msgstr "Parašė"
+
+#. Text in echo
+#: inc/roots-options.php:226 inc/roots-options.php:228
+msgid "CSS Grid Framework"
+msgstr "CSS Grid Framework"
+
+#. Text in function
+#: inc/roots-activation.php:106
+msgid "Change permalink structure to /&#37;postname&#37;/"
+msgstr "Keisti nuorodų struktūrą /&#37;postname&#37;/"
+
+#. Text in echo
+#: inc/roots-activation.php:98
+msgid "Change permalink structure?"
+msgstr "Keisti nuorodos struktūrą?"
+
+#. Text in function
+#: inc/roots-activation.php:119
+msgid "Change uploads folder to /assets/ instead of /wp-content/uploads/"
+msgstr "Keisti saugojimo katalogą  /wp-content/uploads/ į /assets/"
+
+#. Text in echo
+#: inc/roots-activation.php:111
+msgid "Change uploads folder?"
+msgstr "Keisti saugojimo katalogą?"
+
+#. Text in echo
+#: 404.php:11
+msgid "Check your spelling"
+msgstr "Pasitikrinkite rašybą"
+
+#. Text in echo
+#: inc/roots-widgets.php:107
+msgid "City/Locality:"
+msgstr "Miestas/Rajonas:"
+
+#. Text in echo
+#: inc/roots-options.php:315 inc/roots-options.php:317
+msgid "Cleanup Menu Output"
+msgstr "Išvalyti meniu išvestį"
+
+#. Text in echo
+#: 404.php:13
+msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
+msgstr "Paspauskite <a href=\"javascript:history.back()\">atgal</a>mygtuką"
+
+#. Text in echo
+#: comments.php:85
+msgid "Comment"
+msgstr "Komentaras"
+
+#. Text in echo
+#: comments.php:49 comments.php:56
+msgid "Comments are closed."
+msgstr "Komentarai uždrausti"
+
+#. Text in function
+#: inc/roots-cleanup.php:1
+msgid "Continued"
+msgstr "Skaityti daugiau"
+
+#. Text in function
+#: inc/roots-activation.php:93
+msgid "Create a page called Home and set it to be the static front page"
+msgstr "Sukurk puslapį pavadinimu Home ir nustatyk jį pagrindiniu"
+
+#. Text in echo
+#: inc/roots-activation.php:124 inc/roots-activation.php:126
+msgid "Create navigation menus?"
+msgstr "Sukurk valdymo meniu?"
+
+#. Text in echo
+#: inc/roots-activation.php:85 inc/roots-activation.php:87
+msgid "Create static front page?"
+msgstr "Sukurk statinį pagrindinį puslapį"
+
+#. Text in function
+#: inc/roots-activation.php:132
+msgid "Create the Primary and Utility Navigation menus and set their locations"
+msgstr "Sukurk pagrindinį ir pagalbinį meniu ir parink jų vietą"
+
+#. Text in function
+#: archive.php:8
+msgid "Daily Archives: %s"
+msgstr "Dienos archyvas: %s"
+
+#. Text in echo
+#: inc/roots-options.php:243 inc/roots-options.php:253
+#: inc/roots-options.php:263
+msgid "Default:"
+msgstr "Numatytasis:"
+
+#. Text in echo
+#: comments.php:76
+msgid "Email (will not be published)"
+msgstr "Elektroninis paštas (nebus skelbiamas)"
+
+#. Text in echo
+#: inc/roots-widgets.php:123
+msgid "Email:"
+msgstr "E-Mail:"
+
+#. Text in echo
+#: inc/roots-options.php:284
+msgid "Enable Bootstrap Javascript"
+msgstr "Įgalinti Bootstrap Javascript"
+
+#. Text in echo
+#: inc/roots-options.php:304 inc/roots-options.php:306
+msgid "Enable Root Relative URLs"
+msgstr "Įgalinti Root Relativ URLs "
+
+#. Text in function
+#: inc/roots-options.php:299
+msgid "Enter your UA-XXXXX-X ID"
+msgstr "Ivesk savo UA-XXXXX-X ID "
+
+#. Text in echo
+#: 404.php:7
+msgid "File Not Found"
+msgstr "Failas nerastas"
+
+#. Text in function
+#: inc/roots-options.php:1
+msgid "Foundation"
+msgstr "Foundation"
+
+#. Text in echo
+#: inc/roots-options.php:258
+msgid "Full Width CSS Classes"
+msgstr "Viso pločio CSS Klasė"
+
+#. Text in echo
+#: inc/roots-options.php:294 inc/roots-options.php:296
+msgid "Google Analytics ID"
+msgstr "Google Analytics ID"
+
+#. Text in echo
+#: index.php:7
+msgid "Latest Posts"
+msgstr "Naujausi pranešimai"
+
+#. Text in function
+#: comments.php:62
+msgid "Leave a Reply"
+msgstr "Atsakyk "
+
+#. Text in function
+#: comments.php:62
+msgid "Leave a Reply to %s"
+msgstr "Atsakyk  %s"
+
+#. Text in function
+#: inc/roots-options.php:1
+msgid "Less Framework 4"
+msgstr "Less Framework 4"
+
+#. Text in echo
+#: comments.php:69
+msgid "Log out &raquo;"
+msgstr "Atsijungti &raquo;"
+
+#. Text in function
+#: comments.php:69
+msgid "Log out of this account"
+msgstr "Atsijunk iš šio varotojo"
+
+#. Text in function
+#: comments.php:69
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Prisijungęs kaip <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#. Text in function
+#: archive.php:8
+msgid "Monthly Archives: %s"
+msgstr "Mėnesio archyvas: %s"
+
+#. Text in echo
+#: comments.php:72
+msgid "Name"
+msgstr "Vardas"
+
+#. Text in function
+#: comments.php:44
+msgid "Newer comments &rarr;"
+msgstr "Naujausias komentaras &rarr;"
+
+#. Text in function
+#: loop.php:35
+msgid "Newer posts &rarr;"
+msgstr "Naujausias pranešimas &rarr;"
+
+#. Text in echo
+#: inc/roots-activation.php:142 inc/roots-options.php:274
+#: inc/roots-options.php:287 inc/roots-options.php:309
+#: inc/roots-options.php:320
+msgid "No"
+msgstr "Ne"
+
+#. Text in function
+#: inc/roots-options.php:1
+msgid "None"
+msgstr "Ne"
+
+#. Text in function
+#: loop-single.php:14 loop-page.php:7
+msgid "Pages:"
+msgstr "Puslapiai:"
+
+#. Text in function
+#: inc/roots-htaccess.php:1
+msgid "Please make sure your <a href=\"%s\">.htaccess</a> file is writable "
+msgstr "Pasitikrinkite ar galite rašyti į <a href=\"%s\">.htaccess</a> failą"
+
+#. Text in echo
+#: 404.php:9
+msgid "Please try the following:"
+msgstr "Prašau pabandyti šiuos veiksmus:"
+
+#. Text in function
+#: inc/roots-cleanup.php:1
+msgid ""
+"Please update your <a href=\"%s\">site tagline</a> <a href=\"%s\" style="
+"\"float: right;\">Hide Notice</a>"
+msgstr ""
+"Please update your <a href=\"%s\">site tagline</a> <a href=\"%s\" style="
+"\"float: right;\">Hide Notice</a> <a href=\"%s\" style=\"float: right;"
+"\">Verstecke Hinweis</a>"
+
+#. Text in function
+#: functions.php:1
+msgid "Posted on %s at %s."
+msgstr "Paskelbta %s %s."
+
+#. Text in function
+#: functions.php:1
+msgid "Primary Navigation"
+msgstr "Pirminis navigacijos meniu"
+
+#. Text in function
+#: 404.php:12
+msgid "Return to the <a href=\"%s\">home page</a>"
+msgstr "Grįžti į <a href=\"%s\">pirmą puslapį</a>"
+
+#. Text in function
+#: inc/roots-widgets.php:1
+msgid "Roots: vCard"
+msgstr "Roots: vCard"
+
+#. Text in echo
+#: searchform.php:3 searchform.php:4
+msgid "Search"
+msgstr "Ieškoti"
+
+#. Text in echo
+#: search.php:7
+msgid "Search Results for"
+msgstr "Paiškos resultatai raktui"
+
+#. Text in echo
+#: searchform.php:2
+msgid "Search for:"
+msgstr "Ieškoti:"
+
+#. Text in echo
+#: loop.php:3
+msgid "Sorry, no results were found."
+msgstr "Apgailestaujame, pateikta užklausa nedavė rezultatų."
+
+#. Text in echo
+#: inc/roots-widgets.php:111
+msgid "State/Region:"
+msgstr "Rajonas/Vlstija:"
+
+#. Text in echo
+#: inc/roots-widgets.php:103
+msgid "Street Address:"
+msgstr "Gatvė:"
+
+#. Text in echo
+#: comments.php:88
+msgid "Submit Comment"
+msgstr "Skelbti komentarą"
+
+#. Text in echo
+#: inc/roots-widgets.php:119
+msgid "Telephone:"
+msgstr "Telefonas:"
+
+#. Text in echo
+#: 404.php:8
+msgid ""
+"The page you are looking for might have been removed, had its name changed, "
+"or is temporarily unavailable."
+msgstr ""
+"Puslapis, kurio ieškote, gali būti pašalintas, perkeltas, laikinai "
+"nepasiekiamas."
+
+#. Text in function
+#: inc/roots-activation.php:1
+msgid "Theme Activation"
+msgstr "Theme Įgalinimas"
+
+#. Text in function
+#: inc/roots-options.php:1
+msgid "Theme Options"
+msgstr "Theme Parinktys"
+
+#. Text in echo
+#: comments.php:27
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Ši naujiena pasiekiama tik prisijungus. Prisijunkite kad ją pamatytumėte."
+
+#. Text in echo
+#: inc/roots-widgets.php:99
+msgid "Title (optional):"
+msgstr "Pavadinimas (nebūtinas):"
+
+#. Text in echo
+#: inc/roots-activation.php:100
+msgid "Update permalink structure?"
+msgstr "Keisti nuorodos struktūrą?"
+
+#. Text in echo
+#: inc/roots-activation.php:113
+msgid "Update uploads folder?"
+msgstr "Keisti saugyklos katalogą?"
+
+#. Text in function
+#: inc/roots-widgets.php:1
+msgid "Use this widget to add a vCard"
+msgstr "Naudoti šį įskiepą pridėti vCard"
+
+#. Text in function
+#: functions.php:1
+msgid "Utility Navigation"
+msgstr "Pagalbinė navigacija"
+
+#. Text in echo
+#: comments.php:80
+msgid "Website"
+msgstr "Svetainė"
+
+#. Text in function
+#: functions.php:1
+msgid "Written by"
+msgstr "Parašė: "
+
+#. Text in function
+#: archive.php:8
+msgid "Yearly Archives: %s"
+msgstr "Metų archyvas: %s"
+
+#. Text in echo
+#: inc/roots-activation.php:141 inc/roots-options.php:273
+#: inc/roots-options.php:286 inc/roots-options.php:308
+#: inc/roots-options.php:319
+msgid "Yes"
+msgstr "Taip"
+
+#. Text in function
+#: comments.php:65
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Rašydamas komentarą privalai būti <a href=\"%s\">prisijungęs</a> ."
+
+#. Text in echo
+#: comments.php:13
+msgid "Your comment is awaiting moderation."
+msgstr "Komentaras laukia patvirtinimo"
+
+#. Text in echo
+#: inc/roots-widgets.php:115
+msgid "Zipcode/Postal Code:"
+msgstr "pašto kodas:"
+
+#. Text in function
+#: inc/roots-widgets.php:1
+msgid "vCard"
+msgstr "vCard"
